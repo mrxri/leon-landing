@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+
+:root{
+	--menu-hover:#fff;
+	--color-base:#333e50;
+	--color-verde:#27c79a;
+	--color-gris: #eee;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #000;
+	color: var(--color-base);
+	font-weight: 300px;
+}
+header{
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+}
+
+
+/* hero */
+
+#hero{
+	background-image: url("../img/header-background.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 5% 0;
+	padding-top: 8%;
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 400;
+	margin-top: 17%;
+}
+#hero h4{
+	color: #fff;
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.btn-leon{
+	background-color: var(--color-verde);
+	color: #fff;
+	padding: 12px 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.btn-leon i{
+	font-size: 24px;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+.titulo{
+	font-size: 44px;
+	color: var(--color-base);
+	font-weight: 400;
+	text-align: center;
+	margin-botton:20px;
+}
+
+
+.subtitulo{
+	font-size: 22px;
+	color: var(--color-base);
+	font-weight: 300;
+	text-align: center;
+}
+
+.texto-subtitulo{
+	font-size: 17px;
+	color: var(--color-base);
+	font-weight: 300;
+	text-align: center;
+}
+
+
+/* features */
+
+
+#features,
+#screenshots{
+	background-color: var(--color-gris);
+}
+
+#features h4{
+	font-size: 22px;
+	font-weight: 400;
+}
+
+#features i{
+	color: var(--color-verde);
+	font-size: 60px;
+}
+
+#features .row:nth-child(1){
+	margin-top: 50px;
+}
+
+#features .row:nth-child(2),
+#features .row:nth-child(3){
+	margin-top: 30px;
+}
+
+
+.bg-base{
+	background-color: var(--color-base);
+}
+
+.bg-verde{
+	background-color: var(--color-verde);
+
+}
+
+#description article:nth-child(1){
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#description .titulo{
+	text-align: start;
+}
+
+.section-verde{
+	padding: 5%;
+}
+
+#tabs article{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#video{
+	padding: 4% 10% 2%;
+	color: #fff;
+	background-color: var(--color-base);
+}
+#screenshots{
+	margin-top: 140px;
+	margin-bottom:190px;
+	padding: 0 10%;
+	
+}
+
+.tituloscreen{
+	font-size: 50px;
+	text-align: center;
+}
+
+.subtituloscreen{
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+
+
+/* pricing */
+#pricing{
+	padding: 5% 0;
+}
+
+#pricing h1{
+	text-align: center;
+}
+
+.card-title{
+	font-size: 70px;
+	color: var(--color-base);
+	font-weight: 350;
+	text-align: center;
+}
+
+.btn-primary{
+	padding: 10px 100px;	
+}
+
+.card-header{
+	font-size: 25px;
+	font-weight: 400;
+}
+
+i{
+	color: var(--color-verde);
+
+}
+
+
+/* owl carousel */
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: var(--color-base);
+    border: 0 !important;
+}
+
+
+/*tabs*/
+.nav-pills .nav-link.active{
+	background-color: var(--color-base);
+	border: 1px solid var(--color-base);
+
+}
+
+.nav-pills .nav-link{
+	border: 1px solid #ddd;
+	margin-left: 10px;
+	color: #333;
+}
+
+
+/*other apps we worked on*/
+
+
+
+/*suscribe*/
+#subscribe{
+	text-align: center;
+}
+
+#subscribe h3{
+	font-size: 22px;
+	font-weight: 400px;
+}
+#subscribe i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+	color: var(--color-base);
+	border: 1px solid var(--color-base);	
+	border-radius: 100%;
+}
+
+#subscribe i:hover{
+	background-color: var(--color-verde);
+	color: var(--color-verde);
+}
+
+
+
+
+footer{
+	background-color: var(--color-base);
+	padding: 20px 0px;
+	color: #c4c4c4;
+	text-align: center;
+	font-size: 14px;
+}
+
+footer span{
+	color: #fff;
+	font-weight: 400;
+}
+
+
+
+
+
+
